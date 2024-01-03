@@ -1,0 +1,208 @@
+\subsubsection*{\S 第五讲\ 质量管理}
+\setcounter{problemname}{0}
+
+\begin{problem}
+	关于PSP质量管理策略，下列说法中正确的是：
+	\uline{ABD}
+        \begin{enumerate}[label=\Alph*.]
+            \item 用缺陷管理替代质量管理，既有必要性，也有合理性
+            \item 基本无缺陷的开发是通过开展高质量的评审来实现的
+            \item 经过训练，评审是所有消除缺陷的手段当中最高效的
+            \item PSP质量策略主要解决的是外部质量，而非内部质量
+        \end{enumerate}
+\end{problem}
+
+\begin{solution}
+C. 编译消除的效率高于评审的。D. 软件质量既有内部质量也有外部质量，外部质量面向最终用户，内部质量则不然，PSP 使用面向用户的视图。
+\end{solution}
+
+
+
+
+\begin{problem}
+	关于DRL，下列说法中不正确的是：
+	\uline{CD}
+        \begin{enumerate}[label=\Alph*.]
+            \item 这是一种模块级开发中质量控制的指标
+            \item DRL以单元测试每小时发现缺陷率作为基准，考察上游其他缺陷消除阶段的消除效率
+            \item DRL以单元测试发现的缺陷个数作为基准，考察上游其他缺陷消除阶段消除缺陷的效率
+            \item DRL只能预测，不能度量
+        \end{enumerate}
+\end{problem}
+
+\begin{solution}
+C. 应该为每小时。D. DRL可以进行度量；虽然每小时注入多少不可知，但是每小时消除多少是可知的。
+\end{solution}
+
+
+
+\begin{problem}
+	关于PQI，下列说法中不正确的是：
+	\uline{BCD}    
+    \vspace{-0.8em}
+    \begin{multicols}{2}
+        \begin{enumerate}[label=\Alph*.]
+            \item PQI表征模块级别开发中的过程规范化程度
+            \item PQI越高越好，可以充分保障质量
+            \item PQI越低越好
+            \item PQI不能用作质量规划
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+\begin{problem}
+	关于PQI，下列说法中正确的是：
+	\uline{AB}
+    \vspace{-0.8em}
+    \begin{multicols}{2}
+        \begin{enumerate}[label=\Alph*.]
+            \item PQI可以辅助判断模块开发质量
+            \item PQI可以提供过程改进的依据
+            \item PQI确保大于1，从而确保开发质量
+            \item PQI只能预测，不能度量
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+\begin{problem}
+	关于Yield，下列说法中正确的是： 
+	\uline{ABCD}
+    \vspace{-0.8em}
+    \begin{multicols}{2}
+        \begin{enumerate}[label=\Alph*.]
+            \item Yield可以辅助判断模块开发质量
+            \item Yield可以提供过程改进的依据
+            \item Yield区分为Process Yield和Phase Yield
+            \item Yield只能预测，不能度量
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+\begin{problem}
+	关于评审速度，下列说法中正确的是：
+	\uline{C}
+        \begin{enumerate}[label=\Alph*.]
+            \item 进行代码评审的时候，控制评审速度不超过每小时1000LOC就能实现大部分质量要求
+            \item 实战中，评审速度应该根据资源水平而定，时间充分就评审慢一些
+            \item 文档评审速度应该控制每小时不超过4页
+            \item 评审速度与人的技能有关，技能强的人可以突破每小时1000 LOC代码这个限制
+        \end{enumerate}
+\end{problem}
+
+
+
+
+\begin{problem}
+	关于Humphrey梳理的Quality Journey，下列说法中正确的是： 
+	\uline{CD}
+        \begin{enumerate}[label=\Alph*.]
+            \item Quality Journey中列出的步骤可以在适当的时候更换顺序
+            \item 由于需求是一切工程活动的基础，因此加强需求开发应该是Quality Journey早期的必备步骤
+            \item Quality Journey仍然仅仅是在“用缺陷管理替代质量管理”这一基本策略之下进行讨论
+            \item Quality Journey中测试应该先于评审得到贯彻和改善
+        \end{enumerate}
+\end{problem}
+
+
+
+\begin{problem}
+	下述设计模板中用来记录内部动态信息的是：
+	\uline{B}
+    \vspace{-0.8em}
+    \begin{multicols}{4}
+        \begin{enumerate}[label=\Alph*.]
+            \item OST
+            \item SST
+            \item LST
+            \item FST
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+\begin{problem}
+	下述关于PSP四大设计模板和UML典型设计图的描述中完全正确的是： 
+	\uline{B}
+        \begin{enumerate}[label=\Alph*.]
+            \item OST在UML中没有对应的设计图
+            \item UML中的类结构以及类之间的关系，在PSP四大设计模板中无法体现
+            \item LST在UML中可以通过类图来体现
+            \item FST在UML中可以通过类图来体现
+        \end{enumerate}
+\end{problem}
+
+\begin{solution}
+B. UML中的时序图和类图所描述的类之间的关系以及对象之间的交互信息在PSP4个设计模板中没有对应的内容。
+\end{solution}
+
+
+
+\begin{problem}
+	一个完全正确的状态机应该满足：
+	\uline{ABC}
+    \vspace{-0.8em}
+    \begin{multicols}{2}
+        \begin{enumerate}[label=\Alph*.]
+            \item 没有死循环和陷阱
+            \item 状态转化条件满足正交性
+            \item 状态转化条件满足完整性
+            \item 状态转化条件满足独立性
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+
+\begin{problem}
+	下列关于各种设计验证手段的描述中正确的是：
+	\uline{CD}
+    \vspace{-0.8em}
+    \begin{multicols}{2}
+        \begin{enumerate}[label=\Alph*.]
+            \item 执行表是唯一一种提供全面设计验证的手段
+            \item 跟踪表是唯一一种提供全面设计验证的手段
+            \item 受限于手工方式，都易于出错
+            \item 符号化执行验证不适合复杂的计算过程
+        \end{enumerate}
+    \end{multicols}
+    \vspace{-1em}
+\end{problem}
+
+
+
+\begin{problem}
+	关于使用程序正确性证明手段验证while-do循环设计的描述中，正确的是：
+	\uline{ABCD}
+        \begin{enumerate}[label=\Alph*.]
+            \item 如果设计是正确的，那么应满足的条件之一是循环判断条件最后一定可以变为false
+            \item 如果设计是正确的，那么应满足的条件之一是循环判断条件为真的时候，单独的循环结构执行结果与循环体再加一个循环结构，其执行结果一致
+            \item 如果设计是正确的，那么应满足的条件之一是循环判断条件为false的时候，循环体内所有变量不能被修改
+            \item 该方法并不能保证循环体算法实现设计意图
+        \end{enumerate}
+\end{problem}
+
+
+
+\begin{problem}
+	下述设计验证手段的描述，哪些是正确的？
+	\uline{A}
+        \begin{enumerate}[label=\Alph*.]
+            \item 符号化执行容易引入人为错误
+            \item 状态机验证是唯一一种提供一般意义的上的正确性检验的验证手段
+            \item 执行表的对设计缺陷的验证能力强于跟踪表
+            \item 正确性检验是唯一可靠的设计验证手段
+        \end{enumerate}
+\end{problem}
